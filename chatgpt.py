@@ -1,11 +1,10 @@
 import os
 import sys
-import openai
-from langchain_community.document_loaders import TextLoader, DirectoryLoader  # Importations consolidées
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings  # Importation consolidée de OpenAIEmbeddings
+from langchain_community.document_loaders import TextLoader, DirectoryLoader
+from langchain_openai import ChatOpenAI, OpenAIEmbeddings  # Assurez-vous que c'est importé de langchain-openai
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.indexes.vectorstore import VectorStoreIndexWrapper
-from langchain_community.vectorstores import Chroma  # Utilisez langchain_community si disponible
+from langchain_community.vectorstores import Chroma
 from langchain.chains import ConversationalRetrievalChain, RetrievalQA
 
 import constants
@@ -13,24 +12,30 @@ import constants
 os.environ["OPENAI_API_KEY"] = constants.APIKEY
 
 PERSIST = False
-
 query = None
 if len(sys.argv) > 1:
     query = sys.argv[1]
 
+class OpenAIEmbeddingWrapper:
+    def __init__(self):
+        self.embedder = OpenAIEmbeddings()
+
+    def invoke(self, input):
+        return self.embedder([input])[0]
+
 if PERSIST and os.path.exists("persist"):
     print("Reusing index...\n")
-    vectorstore = Chroma(persist_directory="persist", embedding_function=OpenAIEmbeddings())
+    vectorstore = Chroma(persist_directory="persist", embedding_function=OpenAIEmbeddingWrapper())
     index = VectorStoreIndexWrapper(vectorstore=vectorstore)
 else:
-    loader = TextLoader("data/data.txt")  # Utilisation de TextLoader pour charger le fichier de données
+    loader = TextLoader("data/data.txt")
     if PERSIST:
         index = VectorstoreIndexCreator(vectorstore_kwargs={"persist_directory": "persist"}).from_loaders([loader])
     else:
         index = VectorstoreIndexCreator().from_loaders([loader])
 
 chain = ConversationalRetrievalChain.from_llm(
-    llm=ChatOpenAI(model="gpt-3.5-turbo"),  # Correction de la faute de frappe ici
+    llm=ChatOpenAI(model="gpt-3.5-turbo"),
     retriever=index.vectorstore.as_retriever(search_kwargs={"k": 1}),
 )
 
@@ -42,6 +47,5 @@ while True:
         sys.exit()
     result = chain({"question": query, "chat_history": chat_history})
     print(result['answer'])
-
     chat_history.append((query, result['answer']))
     query = None

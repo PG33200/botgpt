@@ -27,4 +27,4 @@ Test reading `data/cat.pdf` file.
 Your cat's name is Muffy.
 ```
 
-PENSER A LANCER Venv....
+PENSER A LANCER Venv.... :source envV/bin/activate

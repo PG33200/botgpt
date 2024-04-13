@@ -2,3 +2,149 @@ My dog's name is Sunny.
 c'est un labrador, il est marron
 il est cool
 Les Girondins de Bordeaux , equipe de football, ont remporté leur match hier soir, ils ont bien joué 
+
+Définition de l’ostéoporose
+Au départ : définition clinique et radiologique avec notion de fracture
+Puis définition anatomique (conférence de consensus,
+1993) : affection générale du squelette caractérisée par une
+diminution de la masse osseuse et une altération de la microarchitecture du tissu osseux, conduisant à une augmentation de la fragilité osseuse avec risque accru de fracture.
+Actuellement , définition diagnostique (OMS, 1994) :
+établie par rapport à l’ostéodensitométrie.
+Les différents types d’ostéoporose
+
+Ostéoporoses primitives :
+Ostéoporose post-ménopausique
+Ostéoporose sénile : touche les 2 sexes après 75 ans.
+
+Ostéoporoses secondaires :
+A éliminer avant de poser le diagnostic d’ostéoporose primitive
+Hypercorticisme, hyperparathyroïdie, hyperthyroïdie, insuffisance rénale chronique
+Cancers, myélomes
+
+La prise en charge médicale
+Interrogatoire de la patiente :
+Notion de facteurs de risque dans le but d’évaluer le risque de
+fracture pour la patiente dans les 10 ans à venir. Parmi, les
+facteurs de risque identifiés : fracture périphérique survenant
+« sans traumatisme majeur », fracture « tassement » vertébrale souvent méconnue, ATCD familiaux de fracture ostéoporotique, Densité Minérale Osseuse basse ; élévation du
+remodelage osseux ; petite taille/faible poids corporel ; traitements par corticoïdes au long cours à forte dose ; faible exposition solaire ; vie sédentaire ; hypogonadisme ; alcool, tabac ;
+autres pathologies…
+
+Clinique :
+Douleurs vertébrales aigües orientant vers un tassement
+vertébral
+Déformations, douleurs rachidiennes chroniques
+Fractures
+Perte de taille : la mesurer régulièrement
+Les examens paracliniques
+Densitométrie osseuse ou absorptiométrie
+bi photonique aux rayons X (DEXA)
+
+Eliminer une ostéoporose secondaire :
+
+Bilan biologique systématique à réaliser pour toute
+patiente présentant une ostéoporose :
+1.Eliminer un processus tumoral (myélome…) : NFS , VS, électrophorèse des protéines, protéinurie des 24 heures.
+2.Eliminer une anomalie du métabolisme phosphocalcique :
+calcémie, phosphatémie, calciurie des 24 heures.
+3.Evaluer la fonction rénale et hépatique : créatinine + phosphatases alcalines.
+4.Dosage de vitamine D (25OH) eventuellement
+Si orientation :
+TSH (hyperthyroidie)
+PTH (hyperparathyroidie)
+Cortisolurie des 24 h (hypercorticisme)
+Testostérone (hypogonadisme)
+
+Les traitements
+
+Prévention :
+Mesures hygiéno-diététiques tout au long de la vie : activité
+physique, apports vitamine D+ calcium (3 produits laitiers
+par jour), lutte contre le tabagisme et l’alcoolisme, poids et
+indice corporel.
+Dépistage systématique après 60 ans.
+Corriger un déficit en vitamine D :
+L’insuffisance en vitamine D est fréquente et les apports nutritionnels sont insuffisants ; les valeurs souhaitables sont comprises entre 30 et 80 ng/ml. L’insuffisance en vitamine D du
+sujet âgé aggrave une éventuelle ostéoporose ; provoque une
+hyperparathyroïdie secondaire (PTH élevée, calcémie basse)
+et est responsable de faiblesse musculaire avec augmentation
+du risque de fracture.
+
+Ostéoporose et biologie spécialisée
+F cus 10
+
+Les traitements :
+Les méthodes de surveillance des traitements
+antirésorptifs :
+Les traitements sont le plus souvent efficaces, si respect de
+l’observance ;
+Suivi clinique : mesure de la taille, enquête si -3cm
+Densitométrie à la mise en route : au plus tôt après 2 ans de
+traitement pour vérifier l’absence de perte osseuse et non le
+gain
+
+Marqueurs biologiques à 2-3 mois
+
+L’ apport de la biologie spécialisée
+Marqueurs biochimiques du remodelage osseux
+Variabilité des marqueurs biologiques :
+Réduite si dosage automatisé et si suivi effectué par un seul
+laboratoire
+De préférence, effectuer des dosages sur des marqueurs
+sériques
+Pré-analytique :
+Prélèvements sériques :
+à jeun, avant 9 heures
+sur sérum ou plasma EDTA
+centrifuger rapidement
+congeler à –20 °C dans les 4 heures qui suivent le prélèvement si le dosage n’est pas réalisé dans la journée (et
+dans l’heure qui suit pour l’ostéocalcine)
+possibilité de mesurer les marqueurs sériques ou urinaires ayant subi jusqu’à 3 cycles de congélation-décongélation (sauf pour ostéocalcine)
+Urines première miction ou deuxième miction le
+matin à jeun, avec correction du marqueur par la
+créatinine urinaire
+Le bon usage des marqueurs osseux
+Prédiction de la perte osseuse post-ménopausique :
+perte rapide ; dans ce cas, le marqueur de résorption est au
+dessus des valeurs de référence pré- ménopausiques, il a une
+valeur de dépistage et non de diagnostic.
+pour décider d’un traitement préventif
+
+Suivi thérapeutique : quand on veut traiter une ostéoporose primitive, il faut mesurer un ou plusieurs marqueurs (non obligatoire)
+pour avoir un chiffre de départ qui permettra d’évaluer
+l’efficacité et l’observance du traitement. Suivre l’efficacité du
+traitement par l’observation de la diminution des
+marqueurs de résorption dans les premières semaines puis
+d’un plateau après 3 à 6 mois de traitement mais aussi par diminution retardée des marqueurs de formation avec plateau atteint en 6 à 12 mois.
+
+Quels marqueurs choisir ?
+
+Marqueurs de résorption :
+CTX sérique (en première intention)
+CTX et NTX urinaires
+
+Marqueurs de formation :
+en fonction du traitement utilisé
+Ostéocalcine
+P1NP
+
+Pour la décision thérapeutique et le suivi :
+Traitements anti-résorptifs (bisphosphonates, SERM, THM)
+CTX urinaires : - 45% si THS, -60% si Alendronate 10mg /jr ; -
+70% si NTX
+Raloxifène : -30 à 40 % sur les marqueurs de résorption, + 20
+à 30 % sur marqueurs de formation
+Tériparatide : ostéocalcine +55% ; préférer l’augmentation du
+P1NP
+Ralénate de strontium : variation faible des marqueurs
+Utiliser toujours le même marqueur pour suivre
+un traitement
+
+Conclusion
+L’ostéoporose est devenue un problème de santé publique et
+doit être mieux dépistée car la prise en charge est actuellement insuffisante. Les patientes à risque doivent être traitées.
+Les marqueurs biologiques du remodelage osseux ne doivent
+pas être utilisés pour faire le diagnostic d’ostéoporose (seule
+l’ostéodensitométrie le permet).
+L’apport de la biologie spécialisée concerne le conseil aux cliniciens, la surveillance des patientes traitées, l’apport des
+marqueurs de remodelage pour la décision thérapeutique
