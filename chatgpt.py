@@ -1,15 +1,15 @@
 import os
 import sys
-from langchain_community.document_loaders import DirectoryLoader
+from langchain.document_loaders import DirectoryLoader
 
-from langchain_openai import OpenAIEmbeddings
-from langchain_openai import ChatOpenAI
+from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.indexes.vectorstore import VectorStoreIndexWrapper
 from langchain_community.vectorstores import Chroma
 from langchain.chains import ConversationalRetrievalChain, RetrievalQA
 
 import constants
+
 
 # Configuration de l'environnement
 os.environ["OPENAI_API_KEY"] = constants.APIKEY
