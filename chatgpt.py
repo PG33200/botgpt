@@ -1,7 +1,9 @@
 import os
 import sys
 from langchain_community.document_loaders import DirectoryLoader
-from langchain_openai import ChatOpenAI, OpenAIEmbeddings
+
+from langchain_openai import OpenAIEmbeddings
+from langchain_openai import ChatOpenAI
 from langchain.indexes import VectorstoreIndexCreator
 from langchain.indexes.vectorstore import VectorStoreIndexWrapper
 from langchain_community.vectorstores import Chroma
@@ -31,6 +33,7 @@ if PERSIST and os.path.exists("persist"):
     vectorstore = Chroma(persist_directory="persist", embedding_function=OpenAIEmbeddingWrapper())
     index = VectorStoreIndexWrapper(vectorstore=vectorstore)
 else:
+    
     # Utilisation de DirectoryLoader pour charger les fichiers depuis un répertoire
     
     loader = DirectoryLoader(path="data")
